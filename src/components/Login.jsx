@@ -4,7 +4,7 @@ import { loginUrl } from "./Spotify";
 import {getTokenFromUrl } from './Spotify'
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { gettingToken, getToken, getUserInfo, setCode,  } from '../redux/actions/action';
+import { gettingToken, getToken, setCode,  } from '../redux/actions/action';
 import { useSelector } from 'react-redux';
 import { useHistory } from "react-router-dom";
 
