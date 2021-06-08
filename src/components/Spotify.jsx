@@ -1,5 +1,7 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = encodeURIComponent("http://localhost:3000/");
+//const redirectUri = encodeURIComponent("http://localhost:3000/");
+const redirectUri = encodeURIComponent("http://https://jolly-fermi-0e2fab.netlify.app/");
+
 const clientId = "27fcc8e98cf840fc8125e3925443640d";
 
 const scopes = [
