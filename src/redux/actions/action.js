@@ -43,7 +43,7 @@ export const getToken = () => {
             data: queryString.stringify({
                 grant_type: 'authorization_code',
                 code: code,
-                redirect_uri: 'http://https://jolly-fermi-0e2fab.netlify.app/'
+                redirect_uri: 'https://jolly-fermi-0e2fab.netlify.app/'
             })
         };
 
