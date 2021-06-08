@@ -1,0 +1,51 @@
+
+.profile-container {
+  
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap:10rem;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.header img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 2px solid white;
+
+}
+
+
+.followers, .following, .playlist{
+  color: #1db954;
+  font-size: 1rem;
+  position: relative;
+  text-align: center;
+  width: max-content;
+  
+}
+
+.followers h6,.following h6, .playlist h6{
+  margin-top: .5rem;
+  color: grey;
+}
+.info-bar{
+  display: flex;
+  gap: 1rem;
+}
+
